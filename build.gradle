@@ -17,7 +17,13 @@ application {
     mainClass = 'ohtu.ohtuvarasto.Main'
 }
 jar {
-	manifest {
-		attributes 'Main-Class': 'ohtu.ohtuvarasto.Main'
+    manifest {
+        attributes 'Main-Class': 'ohtu.ohtuvarasto.Main'
 	}
+}
+jacocoTestReport {
+    reports {
+        xml.enabled true
+        html.enabled true
+    }
 }
