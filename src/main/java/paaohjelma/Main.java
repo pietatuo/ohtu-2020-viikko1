@@ -12,5 +12,8 @@ public class Main {
         System.out.println("Luonnin jälkeen:");
         System.out.println("Mehuvarasto: " + mehua);
         System.out.println("Olutvarasto: " + olutta);
+        if (1==1) {
+            if (2==2) System.out.println("tämä rikkoo checkstylea");
+        }
     }
 }
